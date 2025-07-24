@@ -6,7 +6,7 @@
 }
 
 body {
-  background: linear-gradient(to bottom, #637EDC 0%, #fff 65%);
+  background: linear-gradient(to bottom, #637EDC 0%, #ffff 30%);
   color: white;
   text-align: center;
   min-height: 100vh;
