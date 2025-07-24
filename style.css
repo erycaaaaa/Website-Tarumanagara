@@ -2,16 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 body {
-  background: linear-gradient(to bottom, #637EDC 0%, #ffff 30%);
+  background: linear-gradient(to bottom, #637edc 0%, #ffff 30%);
   color: white;
   text-align: center;
   min-height: 100vh;
 }
-
 
 .navbar {
   display: flex;
@@ -90,10 +89,11 @@ nav a {
 
 .btn-secondary-viewmore {
   font-size: clamp(1.25rem, 8vw, 1rem);
-  /*20px-36px*/display: inline-block;
+  /*20px-36px*/
+  display: inline-block;
   padding: 10px 24px;
   background-color: #ffffff;
-  color: #637EDC;
+  color: #637edc;
   border: 2px solid #2b4bbb;
   border-radius: 50px;
   text-decoration: none;
@@ -101,15 +101,14 @@ nav a {
   box-sizing: border-box;
   transition: all 0.3s ease;
   margin-top: 60px;
-
 }
 
 .btn-secondary-viewmore:hover {
-  background-color: #637EDC;
+  background-color: #637edc;
   color: #fff;
 }
 
-#gambarevent{
+#gambarevent {
   margin-top: 40px;
 }
 
@@ -119,15 +118,12 @@ nav a {
   font-size: 1rem;
 }
 
-
-
 .tagline {
   margin-top: 20px;
   font-size: 50px;
   color: #ffffff;
   text-shadow: 1px 2px 5px rgba(36, 61, 163, 0.5); /* arah x, y, blur, warna */
 }
-
 
 .buttons {
   margin-top: 30px;
@@ -146,7 +142,7 @@ nav a {
 }
 
 .primary {
-  background-color: #637EDC;
+  background-color: #637edc;
   color: white;
   border: none;
 }
@@ -219,7 +215,7 @@ nav a {
   border: 1px solid #ccc;
   border-radius: 5px;
   z-index: 999;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .dropdown-menu li {
@@ -249,7 +245,7 @@ nav a {
   color: #333;
   margin-bottom: 100px;
   margin-top: 10px;
-  
+
   /* ✅ Tambahan untuk membatasi lebar dan center */
   max-width: 1000px;
   margin-left: auto;
@@ -270,7 +266,7 @@ nav a {
   color: #7b8df1;
 }
 
-.Initiative-teks{
+.Initiative-teks {
   margin-top: 20px;
   font-weight: 50;
   font-size: 0.5rem;
@@ -284,17 +280,16 @@ nav a {
   color: #a5501e;
 }
 
-.blue-text-boothcamp{
+.blue-text-boothcamp {
   margin-top: 100px;
   font-weight: 600;
   font-size: 2.5rem;
   color: #17236c;
 }
 
-
 .arrow {
   font-weight: bold; /* Membuat tebal */
-  font-size: 48px;   /* Membesarkan ukuran font */
+  font-size: 48px; /* Membesarkan ukuran font */
 }
 
 .candrabaga-logo {
@@ -316,11 +311,11 @@ nav a {
   border-radius: 12px;
   padding: 30px 20px;
   min-width: 200px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .step h3 {
-  color : #000;
+  color: #000;
   margin: 0;
   font-size: 3em;
 }
@@ -340,12 +335,12 @@ nav a {
   width: 90px;
 }
 .background-image {
-  position: fixed;  /* atau absolute jika kamu tidak ingin mengikuti scroll */
+  position: fixed; /* atau absolute jika kamu tidak ingin mengikuti scroll */
   top: 0;
   left: 100;
   width: 100%;
   height: 100%;
-  z-index: -1;      /* supaya berada di belakang konten */
+  z-index: -1; /* supaya berada di belakang konten */
   overflow: hidden;
 }
 
@@ -388,7 +383,7 @@ nav a {
     -moz-transform: translateX(-100%);
     -ms-transform: translateX(-100%);
     -o-transform: translateX(-100%);
-}
+  }
 }
 .logo-section {
   background-color: #fff;
@@ -423,3 +418,382 @@ nav a {
   }
 }
 
+.startup-community {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.startup-community h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.startup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.startup.reverse {
+  flex-direction: row-reverse;
+}
+
+.startup-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.startup-text h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.startup-text p {
+  font-size: 16px;
+  color: #555;
+}
+
+.startup-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  min-width: 250px;
+}
+
+.startup-image img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: Responsif di layar kecil */
+@media (max-width: 768px) {
+  .startup,
+  .startup.reverse {
+    flex-direction: column;
+  }
+}
+.startup-title {
+  font-family: "Roboto", serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.startup-desc {
+  font-family: "Roboto", serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  text-align: center;
+}
+
+.custom-btn {
+  background-color: #006400;
+  border-color: #006400;
+  padding: 10px 30px;
+
+  margin: 20px auto 0;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .startup-title,
+  .startup-desc {
+    text-align: center;
+  }
+}
+.resources-section {
+  padding: 60px 0;
+  background: linear-gradient(to bottom, #617eff, #ffffff);
+  border-radius: 30px 30px 0 0;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.resource-card {
+  position: relative;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.resource-card:hover {
+  transform: scale(1.03);
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+  background: linear-gradient(to top, rgba(222, 222, 222, 0.7), transparent);
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.overlay h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.overlay p {
+  font-size: 1rem;
+  margin: 5px 0 0;
+}
+.contact-section {
+  padding: 60px 20px;
+  background-color: #ffffff;
+}
+
+.container-contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.contact-info {
+  flex: 1 1 40%;
+  text-align: left;
+}
+
+.contact-info .icon {
+  font-size: 3rem;
+  color: #7d91e0;
+  margin-bottom: 10px;
+}
+
+.contact-info h2 {
+  font-size: 2.5rem;
+  color: #7d91e0;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.contact-form {
+  flex: 1 1 45%;
+  background: linear-gradient(to right, #7d91e0, #ffffff);
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form form {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.contact-form .form-heading {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  background-color: #617eff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #4b68d1;
+}
+
+.hero-section {
+  position: relative;
+  width: 100%;
+  max-width: 1200px; /* Sesuaikan dengan lebar gambar Anda */
+  height: 600px; /* Sesuaikan dengan tinggi gambar Anda */
+  background-image: url("image_816929.jpg"); /* Ganti dengan nama file gambar Anda */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  overflow: hidden; /* Penting agar overlay tidak bocor */
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* Overlay gelap transparan */
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2; /* Pastikan konten di atas overlay */
+  padding: 20px;
+}
+
+.hero-content h1 {
+  font-size: 3em;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Tambahkan shadow agar teks lebih terbaca */
+}
+
+.register-button {
+  background-color: #6a5acd; /* Warna ungu tua */
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #ffffff; /* Warna ungu yang lebih gelap saat hover */
+}
+
+/* Media Queries untuk responsivitas */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2.2em;
+  }
+
+  .register-button {
+    padding: 12px 25px;
+    font-size: 1em;
+  }
+
+  .hero-section {
+    height: 450px; /* Sesuaikan tinggi untuk layar yang lebih kecil */
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 1.8em;
+  }
+
+  .register-button {
+    padding: 10px 20px;
+    font-size: 0.9em;
+  }
+}
+.next-step {
+  background-image: url("./assets/gbr4.png");
+  /*GantidenganURLgambarkamu*/
+  background-size: cover;
+  /*Agargambarmenutupiseluruharea*/
+  background-position: center;
+  /*Posisitengah*/
+  background-repeat: no-repeat;
+  /*Janganulanggambar*/
+  padding: 100px 10px;
+  /*Spasiagarkontentidakmepet*/
+  color: white;
+  /*Sesuaikanwarnateksjikaperlu*/
+  text-align: center;
+}
+
+.next-step h1 {
+  font-size: clamp(2.25rem, 8vw, 3.25rem); /* 36px - 100px */
+  font-weight: 700;
+  text-shadow: 0.125rem 0.125rem 0.375rem rgba(0, 0, 0, 0.5);
+  text-align: center;
+  line-height: 1.2;
+  color: rgb(255, 255, 255);
+  margin-top: 310px; /* ✅ Jarak dari elemen di atas */
+}
+
+body {
+  background-color: #ffffff; /* The blue background from the image */
+  font-family: "ROBOTO", sans-serif;
+}
+.footer-container {
+  background: linear-gradient(to bottom, #637edc 0%);
+  text-align: center;
+
+}
+.social-icons svg {
+  width: 28px;
+  height: 28px;
+  stroke-width: 2px;
+  transition: stroke 0.3s ease;
+  cursor: pointer;
+}
+.social-icons a:hover svg path,
+.social-icons a:hover svg circle,
+.social-icons a:hover svg rect {
+  stroke: #ffffff; /* lighter blue on hover */
+}
+.footer-links a:hover {
+  color: #a5b4fc;
+}
+/* Make sure icons and text align properly */
+.icon-text {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+/* Vertical layout for smaller screens */
+@media (max-width: 768px) {
+  .footer-grid {
+    grid-template-columns: 1fr !important;
+    text-align: center !important;
+  }
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    justify-content: center !important;
+  }
+  .footer-left {
+    margin-bottom: 2rem;
+  }
+}
