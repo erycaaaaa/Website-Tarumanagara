@@ -797,3 +797,9 @@ body {
     margin-bottom: 2rem;
   }
 }
+.center-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
