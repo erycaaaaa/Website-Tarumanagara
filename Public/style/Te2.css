@@ -420,3 +420,254 @@ nav a:hover {
   font-size: 1rem;
   color: #555;
 }
+
+.startup-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.startup-container {
+  display: flex;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.05);
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.startup-text {
+  flex: 1;
+}
+
+.startup-text h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.startup-text p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.startup-logos {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.logo-box {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+}
+
+.logo-box img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  margin-top: 4rem;
+  padding: 4rem 4rem; /* ruang dalam seluruh section */
+}
+
+
+.contact-content {
+  flex: 1;
+  max-width: 75%;
+  margin-top: 5rem;
+}
+
+.contact-header small {
+  color: #555;
+  font-size: 0.85rem;
+  margin-top: 5rem;
+}
+
+.btn-leaveus {
+  margin-top: 5rem;
+}
+
+.contact-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 1rem 0 2rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-row {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.form-row input {
+  flex: 1;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  background: transparent;
+}
+
+textarea {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  resize: none;
+  height: 100px;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  background: transparent;
+}
+
+button {
+  align-self: flex-start;
+  padding: 0.75rem 2rem;
+  background: transparent;
+  border: 1px solid #000;
+  border-radius: 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #000;
+  color: white;
+}
+
+.arrow {
+  margin-left: 0.5rem;
+}
+
+.contact-social {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.circle {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.footer {
+  background-color: #536cc3;
+  color: white;
+  padding: 3rem 2rem 2rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  margin-top: 5rem;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-logo {
+  width: 200px;
+  margin-bottom: 1rem;
+}
+
+.footer-col h4 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-col ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-col p,
+.footer-col a {
+  color: white;
+  font-size: 0.9rem;
+}
+
+.subscribe-form {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.subscribe-form input {
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  width: 150px;
+}
+
+.subscribe-form button {
+  padding: 0.4rem 1rem;
+  border: none;
+  background-color: white;
+  color: #536cc3;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.footer-bottom {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #e0e0e0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 1rem;
+}
+
+.social-icons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icons a {
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+}
