@@ -202,8 +202,19 @@ nav a:hover {
   image-rendering: auto;
 }
 
-
 .about-section {
+  padding: 5rem 10%;
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+  /*Agartidakmepetlayar*/
+  border-radius: 2rem;
+  border-bottom-left-radius: 2rem solid #000000;
+  border-bottom-right-radius: 2rem solid #000000;
+  /*Tambahborderlembut*/
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+.about-section-tarumanagara {
   padding: 5rem 10%;
   background-color: #fff;
   font-family: "Poppins", sans-serif;
@@ -281,8 +292,8 @@ nav a:hover {
 .info-box {
   background-color: #f8f7fc;
   border-radius: 0.75rem;
-  padding: 1.5rem;
-  min-height: 7.5rem; /* 120px */
+  padding: 0.5rem;
+  min-height: 0.5rem; /* 120px */
 }
 
 .info-box h3 {
@@ -361,7 +372,6 @@ nav a:hover {
 
 .step {
   flex: 1;
-  min-width: 200px;
 }
 
 .step h3 {
@@ -773,4 +783,160 @@ button:hover {
   border-radius: 999px;
   font-weight: bold;
   box-shadow: 0 4px 12px rgba(255, 110, 196, 0.4);
+}
+
+.about-section-tarumanagara {
+  padding: 2rem 10%;
+  background-color: #fdfdfd;
+  font-family: "Poppins", sans-serif;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.about-image img {
+  width: 500px;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+ 
+  max-width: 700px;
+}
+
+.about-text h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.about-text h2 span {
+  display: inline;
+  font-weight: 700;
+  color: #000;
+}
+
+.about-text p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #444;
+}
+
+/* Responsive untuk mobile */
+@media (max-width: 600px) {
+  .info-box-gedungUntar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .info-box-gedungUntar img {
+    width: 5rem;
+  }
+}
+
+.main-content-box {
+  padding: 2rem 2%;
+  background-color: #fafaff;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* === Bagian Program Studi === */
+.study-program {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  gap: 2rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  margin-bottom: 3rem;
+}
+
+.program-text {
+  flex: 1 1 300px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #222;
+}
+
+.program-text a {
+  color: #4d6ee9;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.program-images {
+  flex: 1 1 300px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: flex-start;
+}
+
+.program-images img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 1.75rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  -webkit-border-radius: 1.75rem;
+  -moz-border-radius: 1.75rem;
+  -ms-border-radius: 1.75rem;
+  -o-border-radius: 1.75rem;
+}
+
+/* === Bagian Core Values === */
+.core-values {
+  text-align: center;
+  background-color: #fff;
+  padding: 3rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.core-values h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  color: #000;
+}
+
+.core-values p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.values-list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.value-item {
+  flex: 1 1 150px;
+  max-width: 180px;
+  text-align: center;
+}
+
+.value-item img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.value-item p {
+  font-weight: 600;
+  color: #4d6ee9;
+  font-size: 1rem;
 }
