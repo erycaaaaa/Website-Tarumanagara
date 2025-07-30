@@ -1,0 +1,193 @@
+.about-section-tarumanagara {
+  padding: 2rem 10%;
+  background-color: #fdfdfd;
+  font-family: "Poppins", sans-serif;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.about-image img {
+  width: 500px;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+  max-width: 700px;
+}
+
+.about-text h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.about-text h2 span {
+  display: inline;
+  font-weight: 700;
+  color: #000;
+}
+
+.about-text p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #444;
+}
+
+.main-content-box {
+  padding: 2rem 2%;
+  background-color: #fafaff;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* === Bagian Program Studi === */
+.study-program {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  gap: 2rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  margin-bottom: 3rem;
+}
+
+.program-text {
+  flex: 1 1 300px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #222;
+}
+
+.program-text a {
+  color: #4d6ee9;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.program-images {
+  flex: 1 1 300px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: flex-start;
+}
+
+.program-images img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 1.75rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  -webkit-border-radius: 1.75rem;
+  -moz-border-radius: 1.75rem;
+  -ms-border-radius: 1.75rem;
+  -o-border-radius: 1.75rem;
+}
+
+/* === Bagian Core Values === */
+.core-values {
+  text-align: center;
+  background-color: #fff;
+  padding: 3rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.core-values h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  color: #000;
+}
+
+.core-values p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.values-list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.value-item {
+  flex: 1 1 150px;
+  max-width: 180px;
+  text-align: center;
+}
+
+.value-item img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.value-item p {
+  font-weight: 600;
+  color: #4d6ee9;
+  font-size: 1rem;
+}
+
+.quote-section {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.quote-box {
+  max-width: 900px;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 10px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.quote-text {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.8;
+  color: #111;
+  font-family: 'Poppins', sans-serif;
+}
+
+.quote-text a {
+  color: #5e76f3;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .quote-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+
+  .quote-box {
+    padding: 1.5rem;
+  }
+}
+
+/* Responsive untuk mobile */
+@media (max-width: 600px) {
+  .info-box-gedungUntar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .info-box-gedungUntar img {
+    width: 5rem;
+  }
+}
