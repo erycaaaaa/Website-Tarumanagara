@@ -10,3 +10,328 @@
   font-weight: bold;
   margin-bottom: 10px;
 }
+
+.ceo-section {
+  padding: 4rem 2rem;
+  background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+.ceo-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.ceo-text {
+  flex: 1;
+}
+
+.ceo-text h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.ceo-text p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+.ceo-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ceo-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsif untuk layar kecil */
+@media (max-width: 768px) {
+  .ceo-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .ceo-image {
+    justify-content: center;
+  }
+
+  .ceo-text h1 {
+    font-size: 2rem;
+  }
+
+  .ceo-text p {
+    font-size: 1rem;
+  }
+}
+
+/* Initiatives Section */
+.our-initiative {
+  background-color: #f9f7fc;
+  padding: 5rem 2rem;
+  border-radius: 2rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.initiative-container {
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+.initiative-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.initiative-subtitle {
+  margin-top: 0.75rem;
+  font-size: 1.125rem;
+  color: #444;
+}
+
+.initiative-steps {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+}
+
+.startup-programs {
+  background-color: #f8f8ff;
+  padding: 4rem 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.programs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: minmax(180px, auto);
+  gap: 1.5rem;
+}
+
+.program-card {
+  background-color: #ffffff;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.04);
+}
+
+.program-card.big {
+  grid-column: span 2;
+  grid-row: span 2;
+  align-self: center;
+}
+
+.program-card h2,
+.program-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #111;
+}
+
+.program-card .highlight {
+  color: #5e76f3;
+  font-weight: 600;
+}
+
+.program-card p.sub {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #34495e;
+}
+
+.program-card p {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.image-row {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.image-row img {
+  width: 100%;
+  height: auto;
+  max-width: 80px;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+/* Responsif untuk mobile */
+@media (max-width: 768px) {
+  .program-card.big {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  .image-row {
+    justify-content: center;
+  }
+}
+
+/* --- Alumni Section --- */
+.alumni-section {
+  padding: 4rem 2rem;
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.alumni-header h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #111;
+}
+
+.alumni-header p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.testimonial-container {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  background-color: #111;
+  color: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  width: 280px;
+  text-align: left;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.stars {
+  color: gold;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.quote {
+  font-style: italic;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.testimonial-card h4 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.caption {
+  font-size: 0.85rem;
+  color: #bbb;
+}
+
+/* --- Call To Action --- */
+.cta-section {
+  padding: 4rem 2rem;
+  background: linear-gradient(to bottom, #eef2ff, #ffffff);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.cta-content h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.cta-content p {
+  color: #555;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.cta-button {
+  padding: 0.8rem 1.8rem;
+  background-color: white;
+  border: 2px solid #111;
+  border-radius: 999px;
+  text-decoration: none;
+  color: #111;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #111;
+  color: white;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  .testimonial-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cta-content h2 {
+    font-size: 1.6rem;
+  }
+}
+
+.cta-section {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: linear-gradient(to bottom, #dee7fd, #f9f9f9); /* Sesuaikan dengan gradienmu */
+  border-radius: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.cta-content h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 1rem;
+}
+
+.cta-content p {
+  color: #444;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  border: 2px solid #111;
+  border-radius: 999px;
+  text-decoration: none;
+  color: #111;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #111;
+  color: white;
+}
+
+.arrow {
+  margin-left: 0.5rem;
+}

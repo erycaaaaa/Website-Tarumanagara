@@ -22,6 +22,7 @@ button {
   font-size: 1rem;
   cursor: pointer;
   transition: all 0.3s ease;
+
 }
 
 button:hover {
@@ -34,7 +35,8 @@ button:hover {
 }
 
 /* Common Form Styles */
-input, textarea {
+input,
+textarea {
   border: none;
   border-bottom: 1px solid #ccc;
   padding: 0.5rem 0;
@@ -155,22 +157,22 @@ nav ul li li a {
   display: block;
   padding: 14px 20px;
   color: rgb(255, 255, 255);
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 nav ul li a:hover {
   background-color: #ffffff;
-   border-radius: 10px;
+  border-radius: 10px;
 }
 
 /* Dropdown */
 nav ul li ul.dropdown {
-   display: none;
-   position: absolute;
-   background-color: #000000b1;
-   min-width: 100px;
-   z-index: 1;
-   border-radius: 10px;
+  display: none;
+  position: absolute;
+  background-color: #000000b1;
+  min-width: 100px;
+  z-index: 1;
+  border-radius: 10px;
 }
 
 nav ul li:hover ul.dropdown {
@@ -446,7 +448,6 @@ nav ul li ul.dropdown li a:hover {
 
 /* Responsive */
 @media (max-width: 768px) {
-
   .hero h1 {
     font-size: 1.8rem;
   }
@@ -480,4 +481,3 @@ nav ul li ul.dropdown li a:hover {
     font-size: 0.9rem;
   }
 }
-
