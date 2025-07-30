@@ -335,3 +335,49 @@
 .arrow {
   margin-left: 0.5rem;
 }
+
+.program-section {
+  text-align: center;
+  padding: 4rem 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.program-header h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.program-header p {
+  max-width: 700px;
+  margin: 0 auto 3rem auto;
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+.program-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+}
+
+.program-card {
+  background-color: #f5f5fb;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 220px;
+  transition: transform 0.3s ease;
+  align-items: center;
+}
+
+.program-card:hover {
+  transform: translateY(-5px);
+  align-items: center;
+}
+
+.program-card img {
+  max-width: 100%;
+  height: auto;
+}
