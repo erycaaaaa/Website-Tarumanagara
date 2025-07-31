@@ -144,7 +144,6 @@
   display: none; /* Chrome, Safari, and Opera */
 }
 
-
 .testimonial-card {
   background: #1a202c;
   color: #e2e8f0;
@@ -231,9 +230,9 @@
     flex-direction: column;
     gap: 40px;
   }
-  
+
   .contact-container {
-      grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
 }
 
@@ -245,11 +244,11 @@
   .section-title {
     font-size: 2rem;
   }
-  
+
   .section-header-left {
     text-align: center;
   }
-  
+
   .section-header-left .section-subtitle {
     margin-right: auto;
   }

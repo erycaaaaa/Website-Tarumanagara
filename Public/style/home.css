@@ -176,7 +176,7 @@
   font-weight: 400;
   line-height: 1.8;
   color: #111;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .quote-text a {
@@ -239,6 +239,10 @@
   border-radius: 2rem;
   text-align: center;
   font-family: "Poppins", sans-serif;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
 }
 
 .initiative-container {

@@ -297,9 +297,13 @@
 .cta-section {
   padding: 4rem 2rem;
   text-align: center;
-  background: linear-gradient(to bottom, #dee7fd, #f9f9f9); /* Sesuaikan dengan gradienmu */
+  background: linear-gradient(
+    to bottom,
+    #dee7fd,
+    #f9f9f9
+  ); /* Sesuaikan dengan gradienmu */
   border-radius: 1rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .cta-content h2 {
@@ -339,7 +343,7 @@
 .program-section {
   text-align: center;
   padding: 4rem 2rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .program-header h2 {
@@ -380,4 +384,206 @@
 .program-card img {
   max-width: 100%;
   height: auto;
+}
+
+/* Container Utama */
+.main-layout-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  margin: 60px auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  gap: 30px;
+}
+
+/* Gaya Umum untuk Semua Section */
+.section-fast-track,
+.section-grow-network,
+.section-mentor,
+.section-working-space {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 0;
+  box-sizing: border-box;
+  /* Padding umum untuk semua section, akan di-override jika ada yang spesifik */
+  padding: 30px;
+}
+
+/* Gaya Judul Umum */
+.fast-track__title,
+.grow-network__title,
+.mentor__title,
+.working-space__title {
+  font-size: 36px;
+  font-weight: 650;
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 20px; /* Jarak bawah judul dikurangi sedikit */
+  /* Padding judul disamakan dengan padding section, atau bahkan 0 jika ingin mepet tepi */
+  padding-left: 0; /* Menghapus padding-left dari judul agar mepet tepi kotak */
+  padding-right: 0; /* Menghapus padding-right dari judul */
+}
+
+/* Gaya Deskripsi Umum (untuk fast-track dan grow-network) */
+.fast-track__description,
+.grow-network__description {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+  /* Padding deskripsi juga disamakan dengan padding section */
+  padding-left: 0; /* Menghapus padding-left dari deskripsi agar mepet tepi kotak */
+  padding-right: 0; /* Menghapus padding-right dari deskripsi */
+  box-sizing: border-box;
+}
+
+/* Gaya Deskripsi untuk Mentor/Working Space (ini yang penting untuk dirapikan) */
+.mentor__description,
+.working-space__description {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+  /* Pastikan tidak ada padding ekstra di sini */
+  padding: 0; /* Hapus padding jika sebelumnya ada, atau set ke 0 */
+}
+
+/* Fast-track Section Spesifik (Kolom Kiri) */
+.section-fast-track {
+  width: calc(60% - 15px);
+  height: 600px;
+  padding: 100px; /* Padding besar tetap di sini */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.fast-track__title {
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 30px;
+  padding-left: 0; /* Pastikan tidak ada padding tambahan yang mengganggu di sini */
+  padding-right: 0; /* Pastikan tidak ada padding tambahan yang mengganggu di sini */
+}
+
+.fast-track__description {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 500px;
+  padding-left: 0; /* Pastikan tidak ada padding tambahan yang mengganggu di sini */
+  padding-right: 0; /* Pastikan tidak ada padding tambahan yang mengganggu di sini */
+}
+
+.fast-track__highlight {
+  color: #6a5acd;
+}
+
+/* Container Kolom Kanan Baru */
+.right-column-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: calc(40% - 15px);
+  box-sizing: border-box;
+}
+
+/* Grow Network Section Spesifik */
+.section-grow-network {
+  width: 100%;
+  height: 280px;
+  /* Padding sudah diatur oleh gaya umum section (30px) */
+  /* Jika ingin lebih rapat ke kiri, bisa dikurangi paddingnya di sini: */
+  padding: 20px; /* Contoh: Kurangi padding section untuk lebih rapat */
+}
+
+.grow-network__title {
+  font-size: 28px;
+  margin-bottom: 10px;
+  /* Pastikan padding-left/right tetap 0 untuk judul di sini */
+}
+
+/* Mentor dan Working Space Group Spesifik */
+.section-group-mentor-workspace {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  align-items: stretch;
+}
+
+.section-mentor,
+.section-working-space {
+  flex: 1;
+  height: auto;
+  padding: 20px; /* Ini sudah disesuaikan sebelumnya agar lebih rapat */
+  box-sizing: border-box;
+}
+
+.mentor__title,
+.working-space__title {
+  font-size: 28px;
+  margin-bottom: 10px;
+  /* Pastikan padding-left/right tetap 0 untuk judul di sini */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1200px) {
+  .main-layout-container {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    gap: 20px;
+  }
+
+  .section-fast-track,
+  .right-column-container {
+    width: 100%;
+    margin-right: 0;
+    padding: 30px;
+    height: auto;
+  }
+
+  .fast-track__title {
+    font-size: 36px;
+  }
+
+  .right-column-container {
+    gap: 20px;
+  }
+
+  .section-group-mentor-workspace {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .section-mentor,
+  .section-working-space {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .fast-track__title {
+    font-size: 30px;
+  }
+  .fast-track__description {
+    font-size: 16px;
+  }
+  .fast-track__title,
+  .grow-network__title,
+  .mentor__title,
+  .working-space__title {
+    font-size: 24px;
+  }
+  .fast-track__description,
+  .grow-network__description,
+  .mentor__description,
+  .working-space__description {
+    font-size: 14px;
+  }
 }
